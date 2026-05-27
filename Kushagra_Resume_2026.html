@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kushagra Saxena — Resume</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Garamond', 'EB Garamond', Georgia, serif;
+      max-width: 860px;
+      margin: 48px auto;
+      padding: 0 56px;
+      color: #1a1a1a;
+      font-size: 13px;
+      line-height: 1.55;
+      background: #fff;
+    }
+
+    /* ── HEADER ── */
+    .header {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+    .name {
+      font-size: 52px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: #111;
+      line-height: 1.1;
+      margin-bottom: 5px;
+    }
+    .title-line {
+      font-size: 10.5px;
+      letter-spacing: 3.5px;
+      text-transform: uppercase;
+      color: #555;
+      margin-bottom: 7px;
+    }
+    .contact-line {
+      font-size: 12.5px;
+      color: #333;
+      margin-bottom: 4px;
+    }
+    .contact-line a {
+      color: #1a1a1a;
+      text-decoration: none;
+      font-weight: 700;
+      font-variant: small-caps;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+    }
+
+    /* ── SECTION ── */
+    .section {
+      margin-top: 24px;
+    }
+    .section-title {
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: #1a1a1a;
+      border-bottom: 1.2px solid #666;
+      padding-bottom: 3px;
+      margin-bottom: 13px;
+    }
+
+    /* ── EDUCATION ── */
+    .edu-item {
+      margin-bottom: 11px;
+    }
+    .edu-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .edu-school {
+      font-weight: 800;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+    .edu-dates {
+      font-size: 12px;
+      color: #555;
+      white-space: nowrap;
+      margin-left: 12px;
+    }
+    .edu-degree {
+      font-size: 12.5px;
+      font-variant: small-caps;
+      color: #222;
+    }
+    .edu-detail {
+      font-size: 12px;
+      color: #444;
+    }
+
+    /* ── EXPERIENCE ── */
+    .exp-item {
+      margin-bottom: 18px;
+    }
+    .exp-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 6px;
+    }
+    .exp-company {
+      font-weight: 800;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+    .exp-meta {
+      font-size: 12px;
+      color: #555;
+      white-space: nowrap;
+      margin-left: 12px;
+    }
+    .exp-bullets {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .exp-bullets li {
+      padding-left: 18px;
+      position: relative;
+      margin-bottom: 6px;
+      font-size: 12.5px;
+      line-height: 1.55;
+    }
+    .exp-bullets li::before {
+      content: "•";
+      position: absolute;
+      left: 5px;
+      color: #333;
+    }
+
+    /* ── SKILLS ── */
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .skills-table tr td {
+      padding: 3px 0;
+      font-size: 12.5px;
+      vertical-align: top;
+    }
+    .skills-table tr td:first-child {
+      font-variant: small-caps;
+      font-weight: 700;
+      font-size: 13px;
+      width: 210px;
+      color: #1a1a1a;
+    }
+
+    /* ── CERTIFICATIONS ── */
+    .cert-item {
+      font-size: 12.5px;
+      padding-left: 18px;
+      position: relative;
+      margin-bottom: 4px;
+    }
+    .cert-item::before {
+      content: "•";
+      position: absolute;
+      left: 5px;
+    }
+
+    @media print {
+      body { margin: 24px auto; padding: 0 48px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1 class="name">Kushagra Saxena</h1>
+    <p class="title-line">Software Development Engineer I</p>
+    <p class="contact-line">forofficialkushagra@gmail.com &nbsp;|&nbsp; +91-8810892355 &nbsp;|&nbsp; Lucknow</p>
+    <p class="contact-line">
+      <a href="https://www.linkedin.com/in/kushagra-saxena-8698a0">LinkedIn</a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="https://github.com/SharpKushagra">GitHub</a>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="https://sharpkushagra.github.io/portfolio/">Portfolio</a>
+    </p>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section">
+    <div class="section-title">Education</div>
+
+    <div class="edu-item">
+      <div class="edu-row">
+        <span class="edu-school">Shri Ramswaroop Memorial College of Engineering and Management</span>
+        <span class="edu-dates">2022 – 2026</span>
+      </div>
+      <div class="edu-degree">Bachelor of Technology, Computer Science &amp; Engineering (Data Science)</div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-row">
+        <span class="edu-school">City Montessori School</span>
+        <span class="edu-dates">2023 – 2024</span>
+      </div>
+      <div class="edu-degree">Intermediate Certificate — PCM + CS</div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <!-- PanScience SDE I -->
+    <div class="exp-item">
+      <div class="exp-row">
+        <span class="exp-company">PanScience Innovations &nbsp;|&nbsp; Software Development Engineer I</span>
+        <span class="exp-meta">Lucknow &nbsp;|&nbsp; May 2026 – Present</span>
+      </div>
+      <ul class="exp-bullets">
+        <li>
+          <strong>Teams lacked a private, fully-owned communication platform.</strong> Designed and built
+          <strong>OwnChat</strong>, a real-time messaging platform (Slack alternative) using Flutter,
+          Node.js, and Socket.io, featuring channels, direct messaging, file sharing, voice messages, and
+          AI-powered slash commands. Implemented persistent socket room tracking ensuring unread badges
+          and real-time events remain accurate after idle reconnects — solving a core reliability gap
+          in long-running sessions.
+        </li>
+        <li>
+          <strong>SEO visibility was fragmented across expensive third-party tools.</strong> Built
+          <strong>OwnSEO (VisibilityOS)</strong>, a self-hosted SEO intelligence platform with a
+          13-stage analysis pipeline covering technical audits, content gap detection, competitor
+          comparison, AI visibility scoring, backlink analysis, and PageSpeed metrics — using Python,
+          Flask, Redis, RQ, and PostgreSQL. Integrated OpenAI, Perplexity, and Google Gemini for
+          AI-driven insights with graceful degradation when APIs are unavailable.
+        </li>
+        <li>
+          <strong>No standardised tool existed to benchmark internal service performance.</strong> Developed
+          <strong>FlexiBench</strong>, a performance benchmarking platform for measuring API throughput,
+          response latency, and load characteristics, enabling engineering teams to establish and track
+          performance baselines across deployments.
+        </li>
+        <li>
+          <strong>Client support required constant human availability with inconsistent responses.</strong>
+          Built <strong>Botza</strong>, an AI-powered chatbot platform enabling clients to deploy
+          customised conversational agents trained on their own data, reducing repetitive support
+          overhead and improving response quality and consistency.
+        </li>
+      </ul>
+    </div>
+
+    <!-- PanScience LLM Intern -->
+    <div class="exp-item">
+      <div class="exp-row">
+        <span class="exp-company">PanScience Innovations &nbsp;|&nbsp; LLM Intern</span>
+        <span class="exp-meta">Lucknow &nbsp;|&nbsp; Dec 2025 – May 2026</span>
+      </div>
+      <ul class="exp-bullets">
+        <li>
+          <strong>Client projects spanned multiple AI domains requiring rapid, production-ready delivery.</strong>
+          Built and shipped multiple client-facing LLM and backend projects across healthcare, legal, and
+          enterprise domains, demonstrating consistent delivery quality that led directly to a full-time
+          SDE I offer.
+        </li>
+      </ul>
+    </div>
+
+    <!-- Setukrite -->
+    <div class="exp-item">
+      <div class="exp-row">
+        <span class="exp-company">Setukrite Technologies &nbsp;|&nbsp; AI Backend Developer</span>
+        <span class="exp-meta">Lucknow, Remote &nbsp;|&nbsp; Aug 2025 – Present</span>
+      </div>
+      <ul class="exp-bullets">
+        <li>
+          <strong>Healthcare information was fragmented and difficult for non-technical users to navigate.</strong>
+          Built and deployed <strong>Heal Trail</strong>, an AI-powered healthcare platform using RAG
+          pipelines and dynamic document analysis APIs, now serving 1,000+ active users.
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section">
+    <div class="section-title">Skills</div>
+    <table class="skills-table">
+      <tr>
+        <td>Programming Languages</td>
+        <td>Python, Java, Dart (Flutter)</td>
+      </tr>
+      <tr>
+        <td>Frameworks &amp; Libraries</td>
+        <td>Django, Spring Boot, Flask, Node.js, REST APIs, LangChain</td>
+      </tr>
+      <tr>
+        <td>AI &amp; ML</td>
+        <td>LLMs, RAG, Prompt Engineering, Transformers, NLP, Vector Databases, Deep Learning</td>
+      </tr>
+      <tr>
+        <td>Cloud &amp; Databases</td>
+        <td>AWS, PostgreSQL, MongoDB, Redis, SQL, NoSQL</td>
+      </tr>
+      <tr>
+        <td>Tools &amp; Platforms</td>
+        <td>Git, Docker, Postman, Streamlit, Claude AI, Socket.io, VS Code</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <div class="section">
+    <div class="section-title">Certifications</div>
+    <div class="cert-item">AI &amp; Prompt Engineering — Edunet Foundation (Microsoft Partner)</div>
+  </div>
+
+</body>
+</html>
